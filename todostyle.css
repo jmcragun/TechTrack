@@ -1,0 +1,95 @@
+h1 {
+    color: #6e64f7;
+    font-family: "dodge";
+    text-align: center;
+    text-shadow: 2px 2px 2px #999999;
+    font-size: 50px;
+}
+body {
+    background: grey;
+    background: linear-gradient(45deg, #454545, #969696);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	z-index: -1;
+}
+
+@font-face {
+	font-family: dodge;
+	src: url(./fonts/DODGE.ttf);
+}
+input {
+	font-family: "dodge";
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-shadow: 5px 5px 10px #151515;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	z-index: 1;
+	-webkit-user-select: auto;
+}
+#taskList {
+	font-family: "dodge";
+	font-size: 18px;
+	width: 600px;
+}
+.task {
+	color: #6e64f7;
+	font-family: "dodge";
+}
+.task:hover {
+	cursor: pointer;
+	color: #554bde;
+}
+.complete {
+	color: #919191 !important;
+	text-decoration: line-through;
+	font-family: "dodge";
+}
+.complete:hover {
+	cursor: pointer;
+	color: #727272 !important;
+}
+nav {
+	text-align: center;
+}
+nav ul{
+	font-family: "dodge";
+	color: white;
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 0 10px 10px;
+	text-decoration: underline;
+}
+nav ul li:hover {
+	cursor: pointer;
+	color: #cfcfcf;
+}
+.test {
+	border-radius: 25px;
+    display: block;
+	padding:10px;
+    background: white;
+    box-shadow: 5px 5px 10px #151515;
+	width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid #d5d5d7;
+}
+.test ul {
+	list-style-type: none;
+	padding: 0;
+}
+.test li {
+	
+}
+.icon {
+	
+}
+
